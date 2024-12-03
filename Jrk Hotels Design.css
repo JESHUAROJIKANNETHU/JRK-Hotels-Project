@@ -1,0 +1,208 @@
+#top{
+    width:auto;
+    height:80px;
+    color:black;
+    background:linear-gradient(orangered,aquamarine,lightblue);
+    text-align:center;
+    font-size:75px;
+    padding:30px 900px 10px 2px;
+    position: sticky;
+    top: 0px;
+    left:10px;
+    z-index:1;
+    
+
+}
+#middle{
+    width: 1500x;
+    height: 610px;
+    background-image: url("hotel.png");
+    background-size: cover;
+}
+
+#Login{
+    width: 500px;
+    height: 500px;
+    color: black;
+    align-items:center;
+    position: relative;
+    top:40px;
+    left:800px;
+    border:4px double black;
+    background-color:cyan;
+    opacity: 0.8;
+    border-radius: 10%;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+#loginform{
+    font-size: 30px;
+    color:black;
+    text-align: left;
+    font-weight: lighter;
+}
+#loginbutton{
+    height: 30px;
+    width: 60px;
+    align-items: center;
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    background:linear-gradient(maroon,black);
+    color: aliceblue;
+    cursor:pointer;
+
+}
+#loginbutton:hover{
+    height:35px;
+    width:70px;
+    color: coral;
+    border-radius: 10px;
+}
+#google{
+     height:40px;
+     width:220px;
+     background-color: azure;
+     border: 3px solid black;
+     position:relative;
+     left: 150px;
+     bottom:20px;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-top: 2px;
+     
+}
+#google:hover{
+    height:43px;
+    width:230px;
+    color:red;
+    border-radius: 10px;
+}
+#layout{
+    width: 1500px;
+    height:800px;
+    background-color: white;
+    
+}
+#layout1{
+    height:400px;
+    width:500px;
+    background-size: cover;
+    border: 4px solid black;
+    position: relative;
+    top:250px;
+    left:50px;
+    box-shadow:
+0 0 5px palevioletred,
+0 0 10px palevioletred,
+0 0 20px palevioletred,
+0 0 30px palevioletred;
+color:blueviolet;
+font-size: 30px;
+
+}
+#layout2{
+    height:400px;
+    width:500px;
+    background-size: cover;
+    border: 4px solid black;
+    position: relative;
+    top:350px;
+    left:50px;
+    box-shadow:
+    0 0 5px brown,
+    0 0 10px brown,
+    0 0 20px brown,
+    0 0 30px brown;
+    color:rgb(221, 0, 255);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#layout3{
+    height:400px;
+    width:500px;
+    border: 4px solid black;
+    background-size: cover;
+    position: relative;
+    bottom: 565px;
+    right: 110px;
+    float: right; box-shadow:
+    0 0 5px greenyellow,
+    0 0 10px greenyellow,
+    0 0 20px greenyellow,
+    0 0 30px greenyellow;
+    color: brown;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#layout4{
+    height:400px;
+    width:500px;
+    border: 4px solid black;
+    background-size: cover;
+    position: relative;
+    left:400px;
+    bottom:60px;
+    float: right;
+    box-shadow:
+    0 0 5px grey,
+    0 0 10px grey,
+    0 0 20px grey ,
+    0 0 30px grey;
+    color: rgb(30, 210, 126);
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgs{
+    height:300px;
+    width:500px;
+}
+.imgs:hover{
+    opacity: 0.7;
+}
+#navibutton1{
+    height:100px;
+    width:300px;
+    color:azure;
+    background-image: linear-gradient(black,blue);
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px dotted white;
+    opacity: 0.8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: game;
+    animation-iteration-count: infinite ;
+    animation-duration: 2s;
+    cursor:pointer;
+}
+#navibutton1:hover{
+    padding: 10px 10px 10px 10px;
+    opacity:1;
+}
+@keyframes game {
+    from{border:3px dotted white;background-image: linear-gradient(maroon,black); font-family: Georgia, 'Times New Roman', Times, serif;}
+    to{border: 6px dotted gold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+}
+.fa-solid_fa-lock { 
+    font-size: 24px; 
+    color: red;  }
+    ::-webkit-scrollbar{
+        width:15px;
+    }
+    ::-webkit-scrollbar-track{
+        background: linear-gradient(black,maroon);
+    }
+    ::-webkit-scrollbar-thumb{
+        height:20px;
+        background:linear-gradient(blueviolet,greenyellow);
+        border-radius: 10px;
+    }
